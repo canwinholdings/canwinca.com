@@ -5,13 +5,13 @@ const translations = {
         'nav_home': '首页',
         'nav_about': '关于我们',
         'nav_contact': '联系我们',
-        'nav_blog': 'Blog',
+        'nav_blog': '博客',
         'nav_portfolio': '产品',
         
         // Hero Section
         'hero_title': '加勝',
         'hero_subtitle': '北美移民身份定制机构',
-        'hero_description': '专注留学生快速转身份与家庭绿卡规划',
+        'hero_description': '专注留学生快速转身份与陪读家庭绿卡规划',
         'hero_btn_usa': '美国',
         'hero_btn_canada': '加拿大',
         
@@ -112,7 +112,7 @@ const translations = {
         'project_core_advantage_01_title': '成功率与资金安全记录卓越',
         'project_core_advantage_01_desc': 'EB-5项目100%绿卡获批率；\n投资期满项目大部分全额还款，部分项目甚至提前还款，历史资金安全记录优异。',
         'project_core_advantage_02_title': '项目设计能力强，契合华人客户需求',
-        'project_core_advantage_02_desc': '熟悉北美地产及商业运营逻辑，具备独立开发和设计EB-5项目的能力，擅长定制“安全+高效+匹配度高”的商业投资移民方案。',
+        'project_core_advantage_02_desc': '熟悉北美地产及商业运营逻辑，具备独立开发和设计EB-5项目的能力，擅长定制“安全+高效+匹配度高”的商业投资移民方案。',
         'project_core_advantage_03_title': '"身份+资产"双重回报模式',
         'project_core_advantage_03_desc': '加勝倡导“移民即投资”的理念，通过项目筛选及结构优化，实现身份转换与资产保值增值的双重目标。',
 
@@ -374,10 +374,13 @@ class LanguageSwitcher {
         // 添加切换动画效果
         document.body.classList.add('language-switching');
         
+        // 保存旧语言，用于移除旧的类
+        const oldLanguage = currentLanguage;
         currentLanguage = currentLanguage === 'zh' ? 'en' : 'zh';
         localStorage.setItem('language', currentLanguage);
-        //body 加个对应 类lang-en
-        document.body.classList.remove('lang-'+currentLanguage);
+        
+        // 移除旧语言类，添加新语言类
+        document.body.classList.remove('lang-'+oldLanguage);
         document.body.classList.add('lang-'+currentLanguage);
         
         // 延迟应用语言，创建平滑的过渡效果
@@ -403,7 +406,7 @@ class LanguageSwitcher {
         if (languageBtn && languageBtnContainer) {
             if (currentLanguage === 'zh') {
                 // 显示中文模式 - 显示中文国旗
-                languageBtn.src = './assets/images/zh.png';
+                languageBtn.src = './assets/images/Language_switching.svg';
                 languageBtn.alt = '中文';
                 languageBtnContainer.title = '切换到英文';
             } else {
@@ -420,7 +423,7 @@ class LanguageSwitcher {
                         color: white;
                         font-size: 14px;
                         font-weight: 600;
-                        padding: 4px 8px;
+                        padding: 1px 5px;
                         border: 1px solid white;
                         border-radius: 3px;
                         background-color: rgba(255,255,255,0.1);
@@ -445,7 +448,8 @@ class LanguageSwitcher {
     applyLanguage(lang) {
         const t = translations[lang];
         
-        document.body.classList.remove('lang-'+currentLanguage);
+        // 移除所有可能的语言类
+        document.body.classList.remove('lang-zh', 'lang-en');
         document.body.classList.add('lang-'+lang);
         // 通用翻译方法：通过 data-translate 属性更新所有元素
         this.updateAllTranslatableElements(t);

@@ -1,0 +1,584 @@
+p{
+    margin-bottom: 0px;
+}
+.f18{
+    font-size: 18px!important;
+}
+.f20 {
+    font-size: 20px!important;
+}
+.f24{
+    font-size: 24px!important;
+}
+.f16{
+    font-size: 16px!important;
+}
+
+.fw4 {
+    font-weight: 400;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+.mb30 {
+    margin-bottom: 30px!important;
+}
+.mb60 {
+    margin-bottom: 60px;
+}
+.disf{
+    display: flex;
+    align-items: center;
+}
+.jcc{
+    justify-content: center;
+}
+.alc{
+    justify-content: center;
+}
+.line-through{
+    display: inline-block;
+    width: 70px;
+    height: 2px;
+    border-bottom: 2px solid #ffffff;
+}
+.flex1{
+    flex: 1;
+}
+.text-indent-20 {
+    text-indent: 20px;
+}
+.text-center {
+    text-align: center;
+}
+
+.letter-spacing-20 {
+    letter-spacing: 20px;
+}
+.letter-spacing-10 {
+    letter-spacing: 10px;
+}
+.wd30 {
+    width: 300px;
+}
+.wd18{
+    width: 180px;
+}
+.wd36{
+    width: 360px;
+}
+.mt20{
+    margin-top: 20px!important;
+}
+.mt30{
+    margin-top: 30px!important;
+}
+.mt40{
+    margin-top: 40px!important;
+}
+.mt60{
+    margin-top: 60px!important;
+}
+.ml20 {
+    margin-left: 20px;
+}
+.btn {
+    border-radius: 2px;
+    color: #ffffff!important;
+    font-size: 20px;
+    font-weight: 400;
+    border: 2px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    padding: 0 20px;
+}
+.btn.btn-red {
+    background-color: #d90a2c;
+    border: 2px solid #d90a2c;
+}
+.bg-red{
+    background-color: #d90a2c!important;
+}
+.service-item .blockart-column-inner{
+    padding-bottom: 100px;
+    height:100%;
+}
+.icon-phone{
+    width:40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.case-section .desc{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.case-section .blockart-column{
+    display: flex;
+    flex-direction: column;
+}
+.case-section .blockart-column-cf37c0b5>.top-contenct{
+    background-color: #f1f5f6;
+    flex: 1;
+}
+.blockart-column-cf37c0b5>.bottom-contenct{
+    height: 200px;
+}
+.blockart-column-cf37c0b5>.top-contenct>p.desc{
+    color: #333333;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.blockart-column-cf37c0b5>.bottom-contenct>p.desc {
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    position: relative;
+    padding-top: 30px;
+}
+.blockart-column-cf37c0b5>.bottom-contenct>.advantage{
+    width:130px;
+    height: 130px;
+    position: absolute;
+    background-color: #d90a2c;
+    border-radius: 50%;
+    text-align: center;
+    top:-65px;
+    left:50%;
+    margin-left: -65px;
+}
+.blockart-column-cf37c0b5>.bottom-contenct>.advantage>img{
+    margin:32px;
+}
+.has-text-style-italic{
+    font-style: italic;
+}
+.project-section{
+    background-color: #f1f5f6;
+    margin:100px 0;
+}
+.project-section-btn{
+    text-align: center;
+    padding-bottom:50px;    
+}
+.project-section-btn .btn-plain-red{
+    border: 2px solid #d90a2c;
+    color: #333333!important;
+    background-color: transparent;
+}
+.can-win-advtages .blockart-section-inner .blockart-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.can-win-advtages .blockart-section-inner .blockart-column .blockart-column-inner{
+    height: 100%;
+    flex: 1;
+}
+.can-win-advtages .blockart-column-21d3998f .blockart-column-inner{
+    background-color: #d90a2c!important;
+}
+.can-win-advtages .blockart-section-inner .blockart-column  .blockart-heading{
+    height: 80px;
+}
+
+/* 语言切换按钮样式 */
+#menu-item-language {
+    position: relative;
+}
+
+#menu-item-language a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#menu-item-language a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-1px);
+}
+
+#menu-item-language img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+#menu-item-language a:hover img {
+    transform: scale(1.1);
+}
+
+/* 语言切换动画效果 */
+.language-switching {
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.language-switched {
+    opacity: 1;
+}
+
+/* 响应式语言切换 */
+@media (max-width: 768px) {
+    #menu-item-language {
+        order: -1;
+        margin-right: auto;
+    }
+    
+    #menu-item-language a {
+        padding: 6px 10px;
+    }
+    
+    #menu-item-language img {
+        width: 18px;
+        height: 18px;
+    }
+}
+.alstr{
+    align-items: stretch!important;
+}
+
+.lang-en .case-section .blockart-column-cf37c0b5>.bottom-contenct{
+    height: 280px;
+}
+
+.lang-en .text-indent-20{
+    letter-spacing: 0;
+    text-indent: 0;
+}
+.hero_subtitle{
+    padding:0 10px;
+}
+.lang-en .blockart-column-e826b558{
+    width: 15%;
+}
+.lang-en .blockart-column-d9fed4f4{
+    width: 70%;
+}
+.lang-en .blockart-column-4fda0e11{
+    width: 14.999%;
+}
+.mb0{
+    margin-bottom: 0;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.mt10{
+    margin-top: 10px;
+}
+.lht28{
+    line-height: 28px;
+}
+.page-about-advantage .page-about-advantage-item{
+    margin-bottom: 20px;
+    color: #fff;
+    line-height: 30px;
+}
+.page-about-advantage h2.blockart-heading.blockart-heading-84a3d27b{
+    line-height: 50px!important;
+}
+.page-about-advantage .page-about-advantage-item>h4{
+    color: #fff;
+    margin-bottom: 8px;
+    line-height: 30px!important;
+}
+.page-about-advantage .page-about-advantage-item .circle{
+    display: inline-block;
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    margin-right: 10px;
+    border: 2px solid #fff;
+}
+.page-about-development h2.blockart-heading.blockart-heading-9a029d20{
+    line-height: 50px!important;
+}
+.page-about-development .page-about-development-item .disf{
+    align-items:baseline;
+}
+.page-about-development .page-about-development-item .circle{
+    margin-right: 10px;
+}
+.page-about-development .page-about-development-item{
+    margin-bottom: 20px;
+}
+.page-about-development .page-about-development-item .circle img{
+    width: 24px;
+}
+.page-about-development .page-about-development-item>h4{
+    margin-bottom: 8px;
+    line-height: 30px!important;
+}
+.page-about-development .page-about-development-item>p{
+    padding-left: 34px;
+}
+.text-center{
+    text-align: center; 
+}
+.f30{
+    font-size: 30px;
+}
+.fw3{
+    font-weight: 300;
+}
+.page-contact .contact-phone{
+    font-weight: 600;
+}
+.page-contact  .contact-way{
+    flex-wrap: wrap;
+}
+.page-contact .contact-way-item{
+    margin-right: 40px;
+}
+.page-contact .contact-way-item img{
+    margin-right: 10px;
+}
+.page-contact .contact-form-item{
+    margin-bottom: 40px;
+}
+.page-contact .contact-form-item-lable{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.page-contact .contact-form-item-lable .required{
+    color: #d90a2c;
+    margin-left: 5px;
+}
+.page-contact .loca-ops{
+    width: 100%;
+    flex-wrap: wrap;
+}
+.page-contact .loca-ops-item{
+    cursor: pointer;
+    min-width: 120px;
+    border: 2px solid #a4abb3;
+    margin-right: 20px;
+    color: #888;
+    padding:0 30px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    user-select: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.page-contact .loca-ops-item:focus {
+    outline: none;
+    user-select: none;
+}
+
+.page-contact .loca-ops-item::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(217, 10, 44, 0.1);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+.page-contact .loca-ops-item:active::before {
+    width: 100%;
+    height: 100%;
+}
+.page-contact .loca-ops-item:hover{
+    background-color: #d90a2c;
+    border: 2px solid #d90a2c;
+    color: #fff;
+    transform: translateY(-1px);
+}
+
+.page-contact .loca-ops-item.active{
+    background-color: #d90a2c;
+    border: 2px solid #d90a2c;
+    color: #fff;
+    position: relative;
+}
+
+.page-contact .loca-ops-item.active::after {
+    content: '✓';
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.page-contact .get-identity-btn{
+    display: inline-block;
+    color: #333;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    padding: 0 20px;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    border: 2px solid #a4abb3;
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+.page-contact .get-identity-btn:hover,
+.page-contact .get-identity-btn:active{
+    background-color: #bf092a;
+    color: #fff;
+}
+
+
+.google-map-section .map-wrapper {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.google-map-section .map-wrapper:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.google-map-section .map-link {
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+
+.google-map-section .map-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(18, 52, 88, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.google-map-section .map-wrapper:hover .map-overlay {
+    opacity: 1;
+}
+
+.google-map-section .map-overlay-content {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.google-map-section .map-overlay-content svg {
+    color: #d90a2c;
+    animation: bounce 1s infinite;
+}
+
+.google-map-section .map-overlay-content span {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    background: rgba(217, 10, 44, 0.9);
+    padding: 8px 16px;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+
+/* 地图图标动画 */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-8px);
+    }
+    60% {
+        transform: translateY(-4px);
+    }
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    
+    .google-map-section .map-header h3 {
+        font-size: 24px;
+    }
+    
+    .google-map-section .map-header p {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+    
+    .google-map-section .map-wrapper iframe {
+        height: 250px;
+    }
+    
+    .google-map-section .map-overlay-content span {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .google-map-section .map-wrapper iframe {
+        height: 220px;
+    }
+    
+    .google-map-section .map-header h3 {
+        font-size: 20px;
+    }
+    
+    .google-map-section .map-header p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    
+    /* 移动端选项优化 */
+    .page-contact .loca-ops-item {
+        min-width: 100px;
+        padding: 0 20px;
+        font-size: 14px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .page-contact .loca-ops-item.active::after {
+        right: 6px;
+        font-size: 12px;
+    }
+    
+    .page-contact .contact-way-item {
+        margin-right: 20px;
+        margin-bottom: 15px;
+    }
+}
