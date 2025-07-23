@@ -337,3 +337,15 @@
 .color-white{
     color: #fff!important;
 }
+.case-section{
+    background-color: rgba(18, 52, 88, 0.05)!important;
+    padding:40px 0 !important;
+}
+.lp0{
+    letter-spacing: 0px!important;
+}
+@media (max-width: 767px) { 
+    .elementor-20 .elementor-element.elementor-element-979e0a8 {
+        text-align: center!important;
+    }
+}

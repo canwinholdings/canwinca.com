@@ -1534,7 +1534,7 @@
 													<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e8848b3"
 														data-id="e8848b3" data-element_type="column">
 														<div class="elementor-widget-wrap elementor-element-populated">
-															<div class="elementor-element elementor-element-76968f2 elementor-align-left elementor-widget__width-auto elementor-widget elementor-widget-button"
+															<!-- <div class="elementor-element elementor-element-76968f2 elementor-align-left elementor-widget__width-auto elementor-widget elementor-widget-button"
 																data-id="76968f2" data-element_type="widget"
 																data-widget_type="button.default">
 																<div class="elementor-widget-container">
@@ -1552,7 +1552,7 @@
 																		</a>
 																	</div>
 																</div>
-															</div>
+															</div> -->
 															<div class="elementor-element elementor-element-eb5a10a elementor-align-left elementor-widget__width-auto elementor-widget elementor-widget-button"
 																data-id="eb5a10a" data-element_type="widget"
 																data-widget_type="button.default">
@@ -1563,10 +1563,9 @@
 																			<span
 																				class="elementor-button-content-wrapper">
 																				<span class="elementor-button-icon">
-																					<img src="./assets/images/address.svg" width="30"  height="30" alt="">
+																					<i aria-hidden="true" class="fas fa-map-marker-alt"></i>
 																				</span>
-																				<span class="elementor-button-text">456
-																					City Street NY, New York</span>
+																				<span class="elementor-button-text">26 York Valley Crescent North York,Ontario Canada M2P 1A7</span>
 																			</span>
 																		</a>
 																	</div>
@@ -1643,7 +1642,7 @@
 																									<label
 																										class="evf-field-label"
 																										for="evf-183-field_email"><span
-																											class="evf-label" data-translate="contact_form_email">邮箱</span>
+																											class="evf-label" data-translate="contact_form_email">手机号</span>
 																										<abbr
 																											class="required"
 																											title="Required">*</abbr></label><input
@@ -1651,7 +1650,7 @@
 																										id="evf-183-field_email"
 																										class="input-text"
 																										name="everest_forms[form_fields][email]"
-																										placeholder="e.g. jack.obama@gmail.com"
+																										placeholder="e.g.1-647-839-7501"
 																										required></div>
 																								<div id="evf-183-field_location-container"
 																									class="evf-field evf-field-text form-row validate-required"
@@ -2160,16 +2159,16 @@
 				}
 				
 				// 验证邮箱格式
-				const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-				if (!emailRegex.test(email)) {
-					if (isen == "en") {
-						alert("Please enter a valid email address");
-					}else{
-						alert("请输入正确的邮箱格式");
-					}
-					document.getElementById("evf-183-field_email").focus();
-					return;
-				}
+				// const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+				// if (!emailRegex.test(email)) {
+				// 	if (isen == "en") {
+				// 		alert("Please enter a valid email address");
+				// 	}else{
+				// 		alert("请输入正确的邮箱格式");
+				// 	}
+				// 	document.getElementById("evf-183-field_email").focus();
+				// 	return;
+				// }
 				
 				if (!locationText) {
 					if (isen == "en") {
@@ -2191,12 +2190,12 @@
 
 				// 构建邮件主题
 				const emailSubject = `${subject} - ${locationText}`;
-				let emailBody = `Name：${fullname}\nEmail：${email}\nLocation：${locationText}\nFocus：${subject}`;
+				let emailBody = `Name：${fullname}\nPhone：${email}\nLocation：${locationText}\nFocus：${subject}`;
 				
 				if (isen == "en") {
-					emailBody = `Name：${fullname}\nEmail：${email}\nLocation：${locationText}\nFocus：${subject}`;
+					emailBody = `Name：${fullname}\nPhone：${email}\nLocation：${locationText}\nFocus：${subject}`;
 				}else{
-					emailBody = `姓名：${fullname}\n邮箱：${email}\n所在地：${locationText}\n关注点：${subject}`;
+					emailBody = `姓名：${fullname}\n手机号：${email}\n所在地：${locationText}\n关注点：${subject}`;
 				}
 				// 构建邮件正文
 				if (message) {

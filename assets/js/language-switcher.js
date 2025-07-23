@@ -17,8 +17,8 @@ const translations = {
         
         // 关于加勝 Section
         'about_title': '关于加勝',
-        'about_desc1': '加胜是一家专注于北美移民的高端定制化服务机构，精通北美移民政策、深刻理解北美商业环境，致力于为华人客户提供全链条移民服务。尤其擅长为在美留学生、高净值家庭定制高效、安全的绿卡解决方案，助力客户实现长期身份规划。',
-        'about_desc2': '加胜在EB-5投资移民领域尤为突出，凭借超过28年的经验积累，始终保持100%的绿卡获批率，多个项目更实现提前还款。从前端移民咨询到递件申请，再到绿卡获批的每一环节，加勝提供专业、定制化、贴合华人需求的支持，帮助客户在复杂的移民流程中高效达成目标。',
+        'about_desc1': '加勝是一家专注于北美移民的高端定制化服务机构，精通北美移民政策、深刻理解北美商业环境，致力于为华人客户提供全链条移民服务。尤其擅长为在美留学生、高净值家庭定制高效、安全的绿卡解决方案，助力客户实现长期身份规划。',
+        'about_desc2': '加勝在EB-5投资移民领域尤为突出，凭借超过28年的经验积累，始终保持100%的绿卡获批率，多个项目更实现提前还款。从前端移民咨询到递件申请，再到绿卡获批的每一环节，加勝提供专业、定制化、贴合华人需求的支持，帮助客户在复杂的移民流程中高效达成目标。',
         
         // 数据统计
         'stats_years': '年经历沉淀',
@@ -129,7 +129,7 @@ const translations = {
 
         //联系我们表单字段
         'contact_form_name': '称呼',
-        'contact_form_email': '邮箱',
+        'contact_form_email': '手机号',
         'contact_form_location': '当前所在地',
         'contact_form_focus': '主要关注（多选）',
         'contact_form_message': '留言（选填）',
@@ -325,7 +325,7 @@ const translations = {
 
          //联系我们表单字段
          'contact_form_name': 'Name',
-         'contact_form_email': 'Email',
+         'contact_form_email': 'Phone',
          'contact_form_location': 'Current Location',
          'contact_form_focus': 'Primary Concerns(Multiple Choice)',
          'contact_form_message': 'Message(Optional)',
@@ -362,10 +362,19 @@ class LanguageSwitcher {
     
     bindLanguageToggle() {
         const languageBtn = document.querySelector('#menu-item-language a');
+        //移动端也绑定这个功能
+        const languageBtnMobile = document.querySelector('#menu-item-language-mobile a');
         if (languageBtn) {
             languageBtn.addEventListener('click', (e) => {
                 e.preventDefault();
                 this.toggleLanguage();
+            });
+        }
+        if (languageBtnMobile) {
+            languageBtnMobile.addEventListener('click', (e) => {
+                e.preventDefault();
+                this.toggleLanguage();
+                document.getElementById('zak-mobile-nav-close').click();
             });
         }
     }
