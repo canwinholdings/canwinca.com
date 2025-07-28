@@ -17,8 +17,8 @@ const translations = {
         
         // 关于加勝 Section
         'about_title': '关于加勝',
-        'about_desc1': '加勝是一家专注于北美移民的高端定制化服务机构，精通北美移民政策、深刻理解北美商业环境，致力于为华人客户提供全链条移民服务。尤其擅长为在美留学生、高净值家庭定制高效、安全的绿卡解决方案，助力客户实现长期身份规划。',
-        'about_desc2': '加勝在EB-5投资移民领域尤为突出，凭借超过28年的经验积累，始终保持100%的绿卡获批率，多个项目更实现提前还款。从前端移民咨询到递件申请，再到绿卡获批的每一环节，加勝提供专业、定制化、贴合华人需求的支持，帮助客户在复杂的移民流程中高效达成目标。',
+        'about_desc1': '加胜是一家专注于北美移民的高端定制化服务机构，精通北美移民政策、深刻理解北美商业环境，致力于为华人客户提供全链条移民服务。尤其擅长为在美留学生、高净值家庭定制高效、安全的绿卡解决方案，助力客户实现长期身份规划。',
+        'about_desc2': '加胜在EB-5投资移民领域尤为突出，凭借超过28年的经验积累，始终保持100%的绿卡获批率，多个项目更实现提前还款。从前端移民咨询到递件申请，再到绿卡获批的每一环节，加勝提供专业、定制化、贴合华人需求的支持，帮助客户在复杂的移民流程中高效达成目标。',
         
         // 数据统计
         'stats_years': '年经历沉淀',
@@ -52,7 +52,7 @@ const translations = {
         'success_case_02_desc': '陪读妈妈通过EB-5快速拿到绿卡，既合法留美陪读，也为孩子毕业后自由择业提前铺好身份通道。',
         'success_case_02_title': '陪读办身份\n利己利子女',
         'success_case_03_desc': 'Jason的OPT即将到期，通过EB-5双递交方案，3个月获工卡，顺利入职旧金山科技公司。',
-        'success_case_03_title': '抽签未中\n3个月合法留美工作',
+        'success_case_03_title': '抽签未中?\n3个月合法留美工作',
         
         
         // 项目展示
@@ -161,49 +161,49 @@ const translations = {
         
         // Hero Section
         'hero_title': 'CanWin',
-        'hero_subtitle': 'North American Immigration Status Customization Agency',
-        'hero_description': 'Specializing in expedited status transitions for international students and family Green Card planning',
-        'hero_btn_usa': 'America',
+        'hero_subtitle': 'North American Immigration Customization Agency',
+        'hero_description': 'Specializing in rapid Adjustment of Status for international students and Green Card planning for the accompanying families',
+        'hero_btn_usa': 'United States',
         'hero_btn_canada': 'Canada',
         
         // 关于加勝 Section
         'about_title': 'About CanWin',
-        'about_desc1': 'CanWin is a premium customized service agency specializing in North American immigration, with expertise in immigration policies and a deep understanding of the regional business environment. We are committed to providing end-to-end immigration services for Chinese clients. Particularly adept at crafting efficient and secure Green Card solutions for U.S. international students and high-net-worth families, empowering clients to achieve long-term status planning.',
-        'about_desc2': 'CanWin excels notably in the EB-5 investment immigration field. With over 28 years of experience, we maintain a 100% Green Card approval rate, with multiple projects achieving early repayment. From initial immigration consultation to document submission and finally Green Card approval, CanWin provides professional, customized support tailored to the needs of Chinese clients, helping them efficiently navigate the complex immigration process and achieve their goals.',
+        'about_desc1': 'CanWin is a premium customized immigration service agency specializing in North America, with expertise in immigration policies and a deep understanding of the regional business environment. Our mission is to deliver end-to-end immigration services for Chinese clients. We are particularly adept at designing efficient and secure Green Card solutions for U.S. international students and high-net-worth families, empowering clients to achieve long-term status planning.',
+        'about_desc2': 'CanWin excels notably in the EB-5 investment immigration. With over 28 years of experience, we maintain a 100% approval rate, and many projects achieve early repayment. From consultation to application and approval, CanWin provides professional, personalized support tailored to Chinese clients, helping them achieve their immigration goals efficiently and confidently.',
         
         // 数据统计
         'stats_years': 'Years of experience',
-        'stats_families': 'Immigrant Families',
+        'stats_families': 'Immigrant Families Served',
         'stats_approval': 'Approval Rate',
         'stats_projects': 'EB-5 Program Asset Volume',
         
         // 加勝服务 Section
-        'service_title': 'Services',
-        'service_subtitle': 'Providing U.S. employment-based immigration pathways',
+        'service_title': 'Our Services',
+        'service_subtitle': 'Providing U.S. employment-based immigration solutions',
         'service_eb5_title': 'EB-5 Investment Immigration',
-        'service_eb5_desc': 'Invest in property and immigrate\nOne investment, dual returns',
+        'service_eb5_desc': 'Invest in property\ngain the U.S. residency',
         'service_eb1a_title': 'EB-1 and NIW\nTalent-based immigration',
-        'service_eb1a_desc': 'The fast track for exceptional talents to immigrate',
-        'service_eb3_title': 'EB-1C\nMultinational executive immigration',
-        'service_eb3_desc': 'Short waiting period, quickly realizing the Green Card dream',
+        'service_eb1a_desc': 'Fast- track for exceptional talents',
+        'service_eb3_title': 'EB-1C\nImmigration for multinational executive',
+        'service_eb3_desc': 'Short waiting time quickly getting the Green Card',
         
         // 留学生专区
-        'student_problem': 'F-1 revoked? OPT expiring? No clear path to stay in the U.S.?',
+        'student_problem': 'F-1 revoked? OPT expiring? Uncertain  Status?',
         'student_solution_title': 'Exclusive Green Card pathway for international students',
         'student_solution_desc1': 'No lottery, no luck required',
-        'student_solution_desc2': 'Obtain a work permit in 3 months—resolve your U.S. immigration crisis swiftly',
+        'student_solution_desc2': 'Obtain the EAD in 3 months, and secure your legal status in the U.S.',
         'student_btn': 'Match Your Solution Now',
         'student_phone': '+1-647-839-7501',
 
         // 成功案例
         'success_case_title': 'Success Stories',
         'success_case_desc': 'Status Adjustment Cases',
-        'success_case_01_desc': 'Student Lucy attended middle school in the U.S., while her parents obtained a Green Card in advance through the EB-5 program. She was later admitted to the Psychology Department at the University of California as a local student during high school.',
-        'success_case_01_title': 'Plan ahead\nEarly-age study abroad paves the way to top universities',
-        'success_case_02_desc': 'An accompanying mother quickly obtained a Green Card through EB-5, legally staying in the U.S. to support her child’s education while paving the way for the child’s unrestricted career choices after graduation.',
+        'success_case_01_desc': 'Lucy began studying in the U.S. in middle school. Her parents secured Green Cards via EB-5 , enabling her to enroll as a domestic student in the Psychology Department at the University of California as a local student during high school.',
+        'success_case_01_title': 'Early Planning\nEarly-age study abroad paves the way to top universities',
+        'success_case_02_desc':'A mother accompanying her child quickly obtained a Green Card through EB-5, allowing her legally staying in the U.S. to support her child’s education while paving the way for the child’s flexible career choices after graduation.',
         'success_case_02_title': 'Accompanying children while securing legal status\nBeneficial for both parents and students.',
-        'success_case_03_desc': "Jason's OPT is about to expire. Through the EB-5 dual filing option, he obtained a work permit in 3 months and successfully joined a tech company in San Francisco.",
-        'success_case_03_title': 'Lottery not drawn\nlegally work in the U.S. for 3 months',
+        'success_case_03_desc': "Jason's OPT is about to expire. Through the EB-5 dual filing strategy, he obtained the EAD in 3 months and successfully joined a tech company in San Francisco.",
+        'success_case_03_title': 'OPT Expiring?\nWork legally in 3 months',
         
         // 项目展示
         'project_cases_title': 'Programs',
@@ -211,7 +211,7 @@ const translations = {
         'project_residential': 'Residential Real Estate',
         'project_next': 'NEXT Luxury Rental Apartments',
         'project_chicago': 'Chicago',
-        'project_next_result': '100% approval rate for permanent Green Cards, Early repayment',
+        'project_next_result': '100% approval rate for Green Cards, Early repayment',
         'project_commercial': 'Commercial Real Estate',
         'project_crossings': 'Canopy & Garden Inn by Hilton Chicago Central Loop',
         'project_mountain_view': 'Chicago',
@@ -219,25 +219,25 @@ const translations = {
         'project_other': 'Other Categories',
         'project_lake_point': 'Lake Point Lakeside Mineral Project',
         'project_okeechobee': 'Lake Okeechobee',
-        'project_lake_result': '100% approval rate for permanent Green Cards, Fully repaid',
+        'project_lake_result': '100% approval rate for Green Cards, Fully repaid',
         'project_learn_more': 'Learn More',
         
         // 加勝优势 Section
         'advantage_title': 'Advantages',
-        'advantage_subtitle': '28+ Tailored End-to-End Services',
+        'advantage_subtitle': '28+ Years of Tailored End-to-End Services',
         'advantage_experience_title': 'High Success Rate\nEnsuring Identity and Financial Security',
-        'advantage_experience_desc': "With 28 years of industry experience and rigorously screened programs, we maintain a 100% success rate in immigration, safeguarding our clients' identity and financial security.",
+        'advantage_experience_desc': "With 28 years of industry experience and strict project screening, we’ve maintained a 100% success rate in immigration, safeguarding our clients' immigration status and financial security.",
         'advantage_custom_title': 'Customized Services\nAligned with Chinese Needs',
-        'advantage_custom_desc': 'CanWin offers tailored immigration solutions, deeply understanding the culture and needs of Chinese clients, assisting them in efficiently preparing application materials and simplifying the immigration process.',
+        'advantage_custom_desc': 'CanWin understands the culture and needs of Chinese clients. Our tailored immigration solutions simplify documentation and streamline the immigration process.',
         'advantage_service_title': 'End-to-End Services\nA One-Stop Hassle-Free Experience',
-        'advantage_service_desc': 'From immigration consultation and investment selection to Green Card applications, CanWin provides seamless end-to-end services, ensuring smooth execution at every stage and offering clients a convenient, efficient immigration experience.',
+        'advantage_service_desc': 'From immigration consultation and investment selection to Green Card applications, CanWin provides seamless end-to-end services, ensuring smooth execution at every stage and offering clients a convenient and efficient immigration experience.',
         
         // 加勝理念 Section
-        'philosophy_title': 'Belif',
-        'philosophy_subtitle': 'Only providing realistic and feasible immigration solutions',
-        'philosophy_investment': 'Investment-based immigration—We adhere to: Green Card as the foundation, repayment as the priority',
-        'philosophy_talent': 'Talent-based immigration—We adhere to: Genuine assessment, reliable solutions',
-        'philosophy_essence': 'Bringing immigration back to its essence, simplifying the complex',
+        'philosophy_title': 'Our Philosophy',
+        'philosophy_subtitle': 'Only realistic and feasible immigration solutions',
+        'philosophy_investment': 'EB-5: Green Card First,Repayment Prioritized',
+        'philosophy_talent': 'Talent-based:Genuine assessment.Reliable Plans',
+        'philosophy_essence': 'Simplifying Immigration: Back to Basics',
         
         // 联系我们 Section
         'contact_title': 'Let\'s Talk',
@@ -251,49 +251,32 @@ const translations = {
 
         // 为什么选加勝
         'why_choose_jia': 'Why\nCanWin',
-        'project_variety': 'Diverse projects to match different investment preferences:',
-        'project_variety_desc': "From return-focused investment projects to stable immigration programs, CanWin's EB-5 Program caters to varied investment needs, offering tailored solutions for clients at different stages.",
-        'professional_team': 'Professional team support throughout:',
-        'professional_team_desc': 'CanWin has a full-service team consisting of North American lawyers, financial advisors, business analysts and copywriters to ensure the smooth progress of every link.',
-        'identity_planning': 'Identity planning and wealth management synchronized:',
-        'identity_planning_desc': 'We not only help you achieve legal status conversion to the United States, but also focus on asset allocation and long-term planning for children\'s education, helping families achieve real long-term settlement and value extension in the United States.',
+        'project_variety': 'Diverse projects for varied investment preferences:',
+        'project_variety_desc': "From return-focused investment projects to risk-averse immigration programs, CanWin's EB-5 projects caters to varied investment needs, offering tailored solutions for clients at different stages.",
+        'professional_team': 'Professional end-to-end team support:',
+        'professional_team_desc': 'CanWin boasts a full-chain service team comprising North American lawyers, financial advisors, business analysts, and documentation specialists, ensuring seamless progress at every stage.',
+        'identity_planning': 'Integrated planning for status and wealth management:',
+        'identity_planning_desc': "We not only assist you in achieving lawful U.S. status conversion but also prioritize long-term asset allocation and children's education planning to support long-term family settlement and value growth in the United States.",
         //关于我们-项目核心优势
-        'project_core_advantage': 'Core advantages of EB-5 programs',
-        'project_core_advantage_01_title': 'Excellent success rate and fund security record',
-        'project_core_advantage_01_desc': 'EB-5 program 100% green card approval rate;\nMost of the investment maturity projects are fully repaid, and some projects are even repaid in advance, with excellent historical fund security records.',
-        'project_core_advantage_02_title': 'Strong project design capability, in line with the needs of Chinese customers',
-        'project_core_advantage_02_desc': 'Familiar with North American real estate and commercial operation logic, with the ability to independently develop and design EB-5 projects, good at customizing "safe + efficient + high matching" commercial investment immigration programs.',
-        'project_core_advantage_03_title': '"Identity + Asset" dual return model',
-        'project_core_advantage_03_desc': 'CanWin advocates the concept of "immigration as investment", through project screening and structural optimization, to achieve the dual goals of identity conversion and asset preservation and appreciation.',
+        'project_core_advantage': 'CanWin EB-5 Program Core Advantages',
+        'project_core_advantage_01_title': 'Outstanding success rate and capital safety record',
+        'project_core_advantage_01_desc': '100% Green Card approval rate for EB-5 projects;\nMost projects fully repaid investments upon maturity, with some even repaid early, demonstrating an excellent capital safety record.',
+        'project_core_advantage_02_title': "Strong project design capability tailored to Chinese clients' needs",
+        'project_core_advantage_02_desc': "Well-versed in North American real estate and business operations, with independent EB-5 project development and design expertise.Specialized in 'safe + efficient + well-matched' commercial investment immigration solutions.",
+        'project_core_advantage_03_title': "Dual-Return Model of 'Status + Assets'",
+        'project_core_advantage_03_desc': "CanWin advocates the concept of 'Immigration as Investment.' Through project screening and structural optimization, we achieve the dual objectives of status conversion and asset preservation/appreciation.",
 
         //关于我们项目发展
         'project_development_path': 'CanWin EB-5 Program Development Path',
-        'project_development_path_01_title': 'CanWin EB-5 1.0 stage: safety first, guarantee green card and principal',
-        'project_development_path_01_desc': 'Representative projects: NEXT series luxury/boutique rental apartments',
-        'project_development_path_02_title': 'CanWin EB-5 2.0 stage: guarantee green card funds security, pursue additional returns',
-        'project_development_path_02_desc': 'Representative project: Chicago Hilton dual-brand hotel project',
-        'project_development_path_03_title': 'CanWin EB-5 3.0 stage: new law dividend period, rapid status transition',
-        'project_development_path_03_desc': 'Representative project: 2040 small-volume rental apartment',
-        'project_development_path_04_title': 'CanWin EB-5 4.0 stage: immigration and property, one investment, dual returns',
-        'project_development_path_04_desc': 'Representative project: Chicago suburban villa project',
+        'project_development_path_01_title': 'CanWin EB-5 1.0 stage: Safety First:, Securing Green Cards and Principal',
+        'project_development_path_01_desc': 'Featured Project: NEXT Luxury/Boutique Rental Apartments',
+        'project_development_path_02_title': 'CanWin EB-5 2.0 stage: Prioritizing Green Card and Fund Security While Pursuing Additional Returns',
+        'project_development_path_02_desc': 'Featured Project: Chicago Hilton Dual-Brand Hotel Project',
+        'project_development_path_03_title': 'CanWin EB-5 3.0 stage: Fast-track status adjustment with policy window',
+        'project_development_path_03_desc': 'Featured Project: 2040 Small-Scale Rental Apartments',
+        'project_development_path_04_title': 'CanWin EB-5 4.0 stage: Immigration + Property Ownership, One Investment, Dual Returns',
+        'project_development_path_04_desc': 'Featured Project: Suburban Chicago Villa Project',
 
-        //联系我们表单字段
-        'contact_form_name': 'Name',
-        'contact_form_email': 'Email',
-        'contact_form_location': 'Current Location',
-        'contact_form_focus': 'Primary Focus (Multiple Choice)',
-        'contact_form_message': 'Message (Optional)',
-        'contact_form_btn': 'Get Exclusive Identity Solution',
-        'contact_form_location_us': 'United States',
-        'contact_form_location_ca': 'Canada',
-        'contact_form_location_cn': 'China',
-        'contact_form_location_other': 'Other',
-        'contact_form_focus_01': 'Quick Legal Stay in US',
-        'contact_form_focus_02': 'Work Status Solution',
-        'contact_form_focus_03': 'Children\'s Education',
-        'contact_form_focus_04': 'Project Security',
-        'contact_form_focus_05': 'Investment Returns',
-        'contact_form_btn': 'Get Exclusive Identity Solution',
         
         // 地图相关
         'map_title': 'Our Location',
@@ -303,29 +286,9 @@ const translations = {
         'identity_planning_desc': "We not only assist you in achieving lawful U.S. status conversion but also prioritize long-term asset allocation and children's education planning, helping families achieve genuine long-term settlement and value expansion in the United States.",
 
 
-        //关于我们-项目核心优势
-        'project_core_advantage': 'EB-5Program Core Advantages',
-        'project_core_advantage_01_title': 'Outstanding success rate and capital safety record',
-        'project_core_advantage_01_desc': '100% Green Card approval rate for EB-5 projects;\nMost projects fully repay investments upon maturity, with some even repaying early, demonstrating an excellent historical capital safety record.',
-        'project_core_advantage_02_title': "Strong project design capability tailored to Chinese clients' needs",
-        'project_core_advantage_02_desc': "Well-versed in North American real estate and business operations, with independent EB-5 project development and design expertise. • Specialized in crafting 'safe + efficient + highly compatible' commercial investment immigration solutions.",
-        'project_core_advantage_03_title': "Dual-Return Model of 'Status + Assets'",
-        'project_core_advantage_03_desc': "CanWin advocates the concept of 'Immigration as Investment.' Through project screening and structural optimization, we achieve the dual objectives of status conversion and asset preservation/appreciation.",
-
-         //关于我们项目发展
-         'project_development_path': 'CanWin EB-5 Program Development Path',
-         'project_development_path_01_title': 'CanWin EB-5 Phase 1.0:Safety First: Securing Green Cards and Principal',
-         'project_development_path_01_desc': 'Representative Project: NEXT Series Luxury/Boutique Rental Apartments',
-         'project_development_path_02_title': 'CanWin EB-5 Phase 2.0:Prioritizing Green Card Fund Security While Pursuing Additional Returns',
-         'project_development_path_02_desc': 'Representative Project: Chicago Hilton Dual-Brand Hotel Project',
-         'project_development_path_03_title': 'CanWin EB-5 Phase 3.0:New Act红利期，快速转身份" (Note: "红利期" is typically translated as "dividend period" or "benefit phase," but in immigration contexts, it may refer to a favorable policy window. Consider adapting based on client preference: e.g., "Policy advantage period: Fast-track status adjustment")',
-         'project_development_path_03_desc': 'Featured Project: 2040 Small-Scale Rental Apartments',
-         'project_development_path_04_title': 'CanWin EB-5 Phase 4.0:Immigration + Property Ownership: One Investment, Dual Returns',
-         'project_development_path_04_desc': 'Featured Project: Suburban Chicago Villa Project',
-
          //联系我们表单字段
          'contact_form_name': 'Name',
-         'contact_form_email': 'Phone',
+         'contact_form_email': 'Phone Number',
          'contact_form_location': 'Current Location',
          'contact_form_focus': 'Primary Concerns(Multiple Choice)',
          'contact_form_message': 'Message(Optional)',

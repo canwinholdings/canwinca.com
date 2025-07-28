@@ -2150,9 +2150,9 @@
 				
 				if (!email) {
 					if (isen == "en") {
-						alert("Please enter your email");
+						alert("Please enter your phone number");
 					}else{
-						alert("请输入您的邮箱");
+						alert("请输入您的手机号");
 					}
 					document.getElementById("evf-183-field_email").focus();
 					return;
@@ -2190,10 +2190,10 @@
 
 				// 构建邮件主题
 				const emailSubject = `${subject} - ${locationText}`;
-				let emailBody = `Name：${fullname}\nPhone：${email}\nLocation：${locationText}\nFocus：${subject}`;
+				let emailBody = `Name：${fullname}\nPhone Number：${email}\nLocation：${locationText}\nFocus：${subject}`;
 				
 				if (isen == "en") {
-					emailBody = `Name：${fullname}\nPhone：${email}\nLocation：${locationText}\nFocus：${subject}`;
+					emailBody = `Name：${fullname}\nPhone Number：${email}\nLocation：${locationText}\nFocus：${subject}`;
 				}else{
 					emailBody = `姓名：${fullname}\n手机号：${email}\n所在地：${locationText}\n关注点：${subject}`;
 				}
