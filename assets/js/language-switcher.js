@@ -98,6 +98,10 @@ const translations = {
         'contact_china_region': '中国',
         'contact_china_phone': '+852-5165-5663',
         'contact_china_email': 'ray@canwinca.com',
+        'contact_canada_title': '联系我们',
+        'contact_canada_region': '加拿大',
+        'contact_canada_phone': '+1-437-362-6566',
+        'contact_canada_email': 'sami@canwinca.com',
 
         // 关于我们 - 为什么选加勝
         'why_choose_jia': '为什么选\n加勝',
@@ -248,6 +252,10 @@ const translations = {
         'contact_china_region': 'China',
         'contact_china_phone': '+852-5165-5663',
         'contact_china_email': 'ray@canwinca.com',
+        'contact_canada_title': 'Contact Us',
+        'contact_canada_region': 'Canada',
+        'contact_canada_phone': '+1-437-362-6566',
+        'contact_canada_email': 'sami@canwinca.com',
 
         // 为什么选加勝
         'why_choose_jia': 'Why\nCanWin',
