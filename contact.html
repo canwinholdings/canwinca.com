@@ -26,6 +26,18 @@
 		img:is([sizes="auto" i], [sizes^="auto," i]) {
 			contain-intrinsic-size: 3000px 1500px
 		}
+		
+		/* WhatsApp图标hover效果 */
+		.whatsapp-icon {
+			transition: filter 0.3s ease;
+			/* 默认状态：显示为深灰色，与电话号码文字颜色一致 */
+			filter: brightness(0) saturate(100%) invert(20%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(95%) contrast(95%);
+		}
+		
+		.contact-way:hover .whatsapp-icon {
+			/* hover状态：显示为红色 */
+			filter: brightness(0) saturate(100%) invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+		}
 	</style>
 	<link rel="icon" href="assets/images/favicon.ico">
 	<link rel="icon" href="assets/images/favicon-32x32.png" sizes="32x32">
@@ -1294,6 +1306,15 @@
 			width: 20px;
 			height: 20px;
 		}
+		.contact-way{
+			color: #2B2B2B!important;
+		}
+		.contact-way:hover,.contact-way:hover .elementor-heading-title{
+			color: #d90a2c!important;
+		}
+		.ml10{
+			margin-left: 20px!important;
+		}
 	</style>
 	<link rel="stylesheet" href="./assets/css/home.css" />
 	<script src="./assets/js/language-switcher.js" defer></script>
@@ -1516,24 +1537,29 @@
 														data-id="da6aeed" data-element_type="column">
 														<div class="elementor-widget-wrap elementor-element-populated">
 															<p class="elementor-size-default" style="width: 100%;text-align: center;">America</p>
-															<div class="elementor-element elementor-element-21f7d0c elementor-widget elementor-widget-heading"
-																href="#"
+															<a href="#" class="elementor-element contact-way elementor-button-link elementor-element-21f7d0c elementor-widget elementor-widget-heading"
 																data-id="21f7d0c" data-element_type="widget"
 																data-widget_type="heading.default">
-																<div class="elementor-widget-container">
-																	<h3 class="elementor-heading-title elementor-size-default">+1-647-839-7501​</h3>
+																<div class="elementor-widget-container disf aic">
+																	<span class="elementor-heading-title elementor-size-default">+1-647-839-7501​</span>
+																	<span class="elementor-button-icon ml10">
+																		<img src="./assets/images/whatsapp.svg" width="30" height="30" alt="WhatsApp" class="whatsapp-icon">
+																	</span>
 																</div>
-															</div>
+															</a>
 														</div>
 														<div class="elementor-widget-wrap elementor-element-populated">
 															<p class="elementor-size-default" style="width: 100%;text-align: center;">Canada</p>
-															<div class="elementor-element elementor-element-21f7d0c elementor-widget elementor-widget-heading"
+															<a href="#" class="elementor-element contact-way elementor-element-21f7d0c elementor-widget elementor-widget-heading"
 																data-id="21f7d0c" data-element_type="widget"
 																data-widget_type="heading.default">
-																<div class="elementor-widget-container">
-																	<h3 class="elementor-heading-title elementor-size-default">+1-437-362-6566​</h3>
+																<div class="elementor-widget-container disf aic">
+																	<span class="elementor-heading-title elementor-size-default">+1-437-362-6566​</span>
+																	<span class="elementor-button-icon ml10">
+																		<img src="./assets/images/whatsapp.svg" width="30" height="30" alt="WhatsApp" class="whatsapp-icon">
+																	</span>
 																</div>
-															</div>
+															</a>
 														</div>
 													</div>
 												</div>
